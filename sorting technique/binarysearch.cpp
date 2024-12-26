@@ -1,5 +1,6 @@
 // C++ program to implement iterative Binary Search
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
 // An iterative binary search function.
