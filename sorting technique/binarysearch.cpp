@@ -31,6 +31,6 @@ int main(void)
     int n = sizeof(arr) / sizeof(arr[0]);
     int result = binarySearch(arr, 0, n, x);
     if(result == -1) cout << "Element is not present in array";
-    else cout << "Element is present at index " << result+1;
+    else cout << "Element is present at index " << result+1; 
     return 0;
 }
