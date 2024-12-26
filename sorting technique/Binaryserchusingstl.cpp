@@ -15,4 +15,6 @@ int main(){
         cout<<"Not found.";
      }
 
+     return 0;
+
 }
