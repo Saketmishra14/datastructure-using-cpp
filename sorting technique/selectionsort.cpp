@@ -23,6 +23,10 @@ int main(){
         cout<<arr[i]<<" ";
     }
     Selectionsort(arr,size);
-    cout<<"After sorting -:";
+    cout<<endl<<"After sorting -:";
+    for(int i=0;i<size-1;i++){
+        cout<<arr[i]<<" ";
+    }
+    return 0;
     
 }
