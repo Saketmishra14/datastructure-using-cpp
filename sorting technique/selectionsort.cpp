@@ -5,7 +5,14 @@ using namespace std;
 
 void Selectionsort(int arr[],int size){
     for(int i=0;i<size-1;i++){
-        
+        int Minindex=i;
+        for(int j=i+1;j<size-1;j++){
+            if(arr[j]<arr[Minindex]){
+                Minindex=j;
+            }
+        }
+        swap(arr[i],arr[Minindex]);
+
     }
 }
 int main(){
@@ -16,4 +23,6 @@ int main(){
         cout<<arr[i]<<" ";
     }
     Selectionsort(arr,size);
+    cout<<"After sorting -:";
+    
 }
