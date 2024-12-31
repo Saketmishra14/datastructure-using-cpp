@@ -9,9 +9,10 @@ int binarysearch(int arr[],int low,int high,int x){
             return mid;
         }
           if (arr[mid] > x)
+          //search in left
             return binarysearch(arr, low, mid - 1, x);
 
-
+            //search in right
               return binarysearch(arr, mid + 1, high, x);
     }
   return -1;
