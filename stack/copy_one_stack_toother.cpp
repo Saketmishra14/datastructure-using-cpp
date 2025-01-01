@@ -4,7 +4,7 @@ using namespace std;
 
 stack<int> copystack(stack<int> &input){
   stack<int> temp;
-  while (not input.empty())
+  while (input.top())
   {
     //do the process till the time input stack doesn't become empty
     int curr=input.top();   //[] curr=
@@ -18,5 +18,6 @@ stack<int> copystack(stack<int> &input){
 };
 int main(){
   stack<int> st1;
+  return 0;
    
 }
