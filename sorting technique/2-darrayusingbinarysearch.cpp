@@ -1,4 +1,5 @@
 #include<iostream>
+#include<vector>
 using namespace std;
 
 bool binarysearch(int arr[5][4],int row,int col,int target){
